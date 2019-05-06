@@ -1,0 +1,13 @@
+Package: FitUlt
+Type: Package
+Title: Fit univariate mixed and usual distributions
+Version: 0.1.0
+Author: José Carlos Del Valle <jcval94@gmail.com>
+Maintainer: José Carlos Del Valle <jcval94@gmail.com>
+Description: Extends the fitdist function (of the fitdistrplus package) adding the Anderson-Darling (from ADGofTest) and Kolmogorov Smirnov inside and trying the distributions from the stats package by default and offering a second function wich uses mixed distributions to fit, this distriutions are splited with unsupervised learning, with Mclust function (from mclust package).
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.2.0)
+Imports: ADGofTest, fitdistrplus, assertthat, MASS, purrr, ggplot2, cowplot, mclust, methods, stats
+RoxygenNote: 6.1.1
